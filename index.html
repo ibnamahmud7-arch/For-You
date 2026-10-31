@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>To My Forever Love, Tasmim ❤️</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Great+Vibes&family=Quicksand:wght@400;500&family=Cinzel:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#12020a;--cherry:#7a0f2e;--burg:#4a0a1c;--pink:#ff8fb1;--rose:#ff4d7d;--glass:rgba(255,255,255,.07);--serif:'Cormorant Garamond',Georgia,'Times New Roman',serif;--script:'Great Vibes','Segoe Script','Brush Script MT',cursive;--sans:'Quicksand',system-ui,sans-serif}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html,body{height:100%;background:var(--bg);color:#ffe8ef;font-family:var(--serif);overflow:hidden}
+body{background:radial-gradient(ellipse at 50% 20%,#5c0f2b 0%,#2a0614 45%,#0c0106 100%)}
+canvas{position:fixed;inset:0;width:100%;height:100%;pointer-events:none}
+#bg{z-index:0}#fw{z-index:50}
+#glow{position:fixed;width:120px;height:120px;margin:-60px 0 0 -60px;border-radius:50%;background:radial-gradient(circle,rgba(255,110,160,.35),transparent 70%);pointer-events:none;z-index:60;transition:opacity .3s;opacity:0}
+.screen{position:fixed;inset:0;z-index:2;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px 20px;opacity:0;visibility:hidden;transition:opacity 1s,visibility 1s;overflow-y:auto;-webkit-overflow-scrolling:touch;scroll-behavior:smooth}
+.screen.on{opacity:1;visibility:visible}
+#loader{z-index:100;background:#0c0106}
+.beat{font-size:64px;animation:beat 1s infinite;filter:drop-shadow(0 0 18px #ff2d6a)}
+@keyframes beat{0%,100%{transform:scale(1)}25%{transform:scale(1.25)}50%{transform:scale(1)}70%{transform:scale(1.15)}}
+.small{font-family:var(--sans);letter-spacing:.2em;font-size:12px;color:var(--pink);margin-top:18px;text-transform:uppercase}
+h1,h2{font-weight:400}
+.whisper{font-size:clamp(20px,5vw,30px);font-style:italic;color:#ffd0df;opacity:0;animation:rise 2s .4s forwards}
+.name{font-family:var(--script);font-size:clamp(46px,13vw,96px);line-height:1.2;margin:14px 0 30px;background:linear-gradient(90deg,#ffb3cb,#ff4d7d,#ffd0df);-webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:0 0 40px rgba(255,77,125,.4);opacity:0;animation:rise 2s 1.6s forwards;filter:drop-shadow(0 0 14px rgba(255,60,110,.5))}
+@keyframes rise{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+.btn{font-family:var(--sans);font-size:16px;font-weight:500;color:#fff;border:1px solid rgba(255,255,255,.35);background:linear-gradient(135deg,#ff4d7d,#a3123f);padding:15px 32px;border-radius:50px;cursor:pointer;box-shadow:0 0 25px rgba(255,60,110,.6),inset 0 0 12px rgba(255,255,255,.2);animation:pulse 2.2s infinite;min-height:48px}
+.btn:active{transform:scale(.96)}
+.fadebtn{opacity:0;animation:rise 1.5s 3s forwards,pulse 2.2s 3s infinite}
+@keyframes pulse{0%,100%{box-shadow:0 0 18px rgba(255,60,110,.5)}50%{box-shadow:0 0 42px rgba(255,90,140,.95)}}
+.ghost{background:var(--glass);animation:none;backdrop-filter:blur(8px);margin:6px}
+.stage{position:relative;width:min(78vw,340px);margin:10px auto 24px}
